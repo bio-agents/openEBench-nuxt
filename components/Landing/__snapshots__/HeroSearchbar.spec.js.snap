@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeroSearchbar should match snapshot 1`] = `
+"<section height=\\"100\\" dark=\\"\\" class=\\"primary lighten-1\\">
+  <div class=\\"container pt-7 pb-7\\">
+    <div class=\\"v-input v-input--hide-details theme--light v-text-field v-text-field--single-line v-text-field--solo v-text-field--enclosed\\">
+      <div class=\\"v-input__control\\">
+        <div class=\\"v-input__slot\\">
+          <div class=\\"v-input__prepend-inner\\">
+            <div class=\\"v-input__icon v-input__icon--prepend-inner\\"><button type=\\"button\\" aria-label=\\"prepend icon\\" class=\\"v-icon notranslate v-icon--link mdi mdi-magnify theme--light\\"></button></div>
+          </div>
+          <div class=\\"v-text-field__slot\\"><label for=\\"input-6\\" class=\\"v-label theme--light\\" style=\\"left: 0px; position: absolute;\\">Search for individual agents</label><input data-testid=\\"input-field\\" id=\\"input-6\\" type=\\"text\\"></div>
+          <div class=\\"v-input__append-inner\\">
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>"
+`;

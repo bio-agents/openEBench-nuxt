@@ -1,0 +1,16 @@
+@import '~vuetify/src/styles/styles.sass';
+
+@media only screen and (min-width: map-get($grid-breakpoints, 'xl')) {
+	.container {
+		max-width: 1185px !important;
+	}
+
+	.container.container--fluid {
+		max-width: 100% !important;
+	}
+}
+
+:focus {
+	outline: 2px solid var(--v-secondary-base);
+	outline-offset: 3px;
+}
